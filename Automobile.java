@@ -14,6 +14,8 @@ public class Automobile {
 		this.topSpeedInMPH = unitTopSpeedInMPH;
 		
 		currentYear = 2017;
+		
+		this.isHoodClosed = false;
 	}
 	
 	public int ageOfAutomobile () {
