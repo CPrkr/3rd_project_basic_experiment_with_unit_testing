@@ -5,6 +5,7 @@ public class Automobile {
 	public int currentYear;
 	public String color;
 	public float topSpeedInMPH;
+	public boolean isHoodClosed;	
 	
 	Automobile (int unitModelYear, String unitColor, float unitTopSpeedInMPH) {
 		
@@ -23,5 +24,10 @@ public class Automobile {
 	public float topSpeedInKMPH () {
 		
 		return topSpeedInMPH * 1.6f;
+	}
+	
+	public void makeSureHoodIsClosed() {
+		
+		isHoodClosed = true;
 	}
 }
